@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reg Page</title>
+    <style>
+        body {
+            background-image: url("https://images.pexels.com/photos/6102031/pexels-photo-6102031.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            text-align: center;
+            background-size: cover;
+            /* border: 2px solid hotpink; */
+            font-weight: bold;
+            font-size:large;
+        }
+
+        h2 {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight:bolder;
+            font-size: xxx-large;
+            color: rgb(159, 14, 14);
+        }
+
+        .info{
+            width: 33%;
+            margin: auto 60pc;
+        }
+    </style>
+</head>
+
+<body class="info">
+    <span>
+        <h1> &#128522; Welcome  &#128522;</h1>
+        <h2>Please Register Here!</h2>
+        <h3><em> WIth Simple Steps</em></h3>
+        <form action="backend.php"></form><br>
+
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+
+        <div>
+            <label for="mail">Email: </label>
+            <input type="email" name="myEmail" id="mail">
+        </div>
+        <br>
+
+        <div>
+            <label for="conatct">Contact Number: </label>
+            <input type="tel" name="myNumber" >
+        </div>
+        <br>
+        <div>
+            Service:
+            <select Service: name="myService">
+                <option value="venue">Venue</option>
+                <option value="catering">Catters</option>
+                <option value="decoraters">Decoraters</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="photos">Add some photos related to your Service</label>
+
+            <input type="image" src="" alt="Add Memories" id="photos style=">
+
+        </div>
+
+        <br>
+
+        <div>
+            <label for="Exp">Experience</label>
+            <input type="number" name="myExperience" id="Exp" >
+        </div>
+        <br>
+        <span>
+            Write about yourself: <br>
+            <textarea name="yourself" id="hello" cols="30" rows="10"></textarea>
+        </span>
+        <br>
+        <span><input type="submit" value="Register"></span>
+
+
+        <span><input type="reset" value="Reset All"></span>
+
+
+    </span>
+
+
+
+</body>
+
+</html>
